@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "Refresher"
-  s.version      = "0.2.0"
+  s.version      = "0.2.1"
   s.summary      = "Pull to refresh in Swift"
 
   s.description  = <<-DESC
@@ -9,8 +9,8 @@ Pod::Spec.new do |s|
                    DESC
 
   s.homepage     = "https://github.com/jcavar/refresher"
-  s.screenshots  = "https://raw.githubusercontent.com/jcavar/refresher/master/previews/anim_beat.gif", 
-  				   "https://raw.githubusercontent.com/jcavar/refresher/master/previews/anim_default.gif", 
+  s.screenshots  = "https://raw.githubusercontent.com/jcavar/refresher/master/previews/anim_beat.gif",
+  				   "https://raw.githubusercontent.com/jcavar/refresher/master/previews/anim_default.gif",
   				   "https://raw.githubusercontent.com/jcavar/refresher/master/previews/anim_pacman.gif"
 
   s.license      = "MIT"
@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "8.0"
 
-  s.source       = { :git => "https://github.com/jcavar/refresher.git", :tag => "0.2.0" }
+  s.source       = { :git => "https://github.com/jcavar/refresher.git", :tag => "0.2.1" }
 
   s.source_files  = "Refresher/*.swift"
 
